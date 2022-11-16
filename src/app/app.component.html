@@ -1,0 +1,17 @@
+<nav class="main-navigation">
+  <ul>
+    <li [routerLinkActive]="'active'">
+      <a href="" [routerLink]="['/navigator', ]" [queryParams]="{tag: '0'}">Income</a>
+    </li>
+    <li [routerLinkActive]="'active'">
+      <a href="" [routerLink]="['/navigator', ]" [queryParams]="{tag: '1'}">Outcome</a>
+    </li>
+    <li [routerLinkActive]="'active'">
+      <a href="" [routerLink]="['/navigator', ]" [queryParams]="{tag: '2'}">Loans</a>
+    </li>
+    <li [routerLinkActive]="'active'">
+      <a href="" [routerLink]="['/navigator', ]" [queryParams]="{tag: '3'}">Investments</a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
